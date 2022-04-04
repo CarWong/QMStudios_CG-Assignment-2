@@ -474,9 +474,9 @@ void TutorialSceneLayer::_CreateScene()
 			Light::Sptr lightComponent = light->Add<Light>();
 			lightComponent->SetColor(glm::vec3(1.0f, 1.0f, 1.0f));
 			lightComponent->SetRadius(5.0f);
-			lightComponent->SetIntensity(55.0f);
+			lightComponent->SetIntensity(19.0f);
 		}
-		{
+		/*{
 			Gameplay::GameObject::Sptr light = scene->CreateGameObject("Light");
 			light->SetPostion(glm::vec3(10.98f, -8.26f, 3.59f));
 			lightParent->AddChild(light);
@@ -495,7 +495,7 @@ void TutorialSceneLayer::_CreateScene()
 			lightComponent->SetColor(glm::vec3(1.0f, 1.0f, 1.1f));
 			lightComponent->SetRadius(5.5f);
 			lightComponent->SetIntensity(15.0f);
-		}
+		}*/
 	/*	for (int ix = 0; ix < 50; ix++) {
 			Gameplay::GameObject::Sptr light = scene->CreateGameObject("Light");
 			light->SetPostion(glm::vec3(glm::diskRand(25.0f), 1.0f));

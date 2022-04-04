@@ -1031,7 +1031,7 @@ void DefaultSceneLayer::_CreateScene()
 		 {
 			{
 				Gameplay::GameObject::Sptr light = scene->CreateGameObject("Light 1");
-				light->SetPostion(glm::vec3(19.9f, 11.67f, 3.0f));
+				light->SetPostion(glm::vec3(2.04f, 7.9f, 3.0f));
 				lightParent->AddChild(light);
 
 				Light::Sptr lightComponent = light->Add<Light>();
@@ -1039,7 +1039,7 @@ void DefaultSceneLayer::_CreateScene()
 				lightComponent->SetRadius(20.0f);
 				lightComponent->SetIntensity(6.0f);
 			}
-			{
+			/*{
 				Gameplay::GameObject::Sptr light = scene->CreateGameObject("Light 2");
 				light->SetPostion(glm::vec3(13.4f, 12.35f, 3.0f));
 				lightParent->AddChild(light);
@@ -1108,7 +1108,7 @@ void DefaultSceneLayer::_CreateScene()
 				lightComponent->SetColor(glm::vec3(1.0f, 1.0f, 1.0f));
 				lightComponent->SetRadius(-0.600f);
 				lightComponent->SetIntensity(1.0f);
-			}
+			}*/
 		}
 
 		// We'll create a mesh that is a simple plane that we can resize later
