@@ -1028,7 +1028,7 @@ void DefaultSceneLayer::_CreateScene()
 		Gameplay::GameObject::Sptr lightParent = scene->CreateGameObject("Lights");
 		//light collection
 		//set this up for every light
-		{
+		 {
 			{
 				Gameplay::GameObject::Sptr light = scene->CreateGameObject("Light 1");
 				light->SetPostion(glm::vec3(19.9f, 11.67f, 3.0f));
