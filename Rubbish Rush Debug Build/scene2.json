@@ -1,0 +1,3033 @@
+{
+	"ambient": {
+		"x": 0.10000000149011612,
+		"y": 0.10000000149011612,
+		"z": 0.10000000149011612
+	},
+	"default_material": "null",
+	"main_camera": "d0edf60f-551a-f34e-8be9-069005a3656a",
+	"objects": [
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Camera": {
+					"clear_color": {
+						"w": -431602080.0,
+						"x": -431602080.0,
+						"y": -431602080.0,
+						"z": -431602080.0
+					},
+					"enabled": true,
+					"far_plane": 1000.0,
+					"fov_radians": 1.832595705986023,
+					"guid": "d0edf60f-551a-f34e-8be9-069005a3656a",
+					"near_plane": 0.10000000149011612,
+					"ortho_enabled": false,
+					"ortho_size": 10.0
+				},
+				"SimpleCameraControl": {
+					"enabled": true,
+					"guid": "7ade6932-58ab-1947-939d-12814e4ec09f",
+					"mouse_sensitivity": {
+						"x": 0.5,
+						"y": 0.30000001192092896
+					},
+					"move_speed": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"shift_mult": 2.0
+				}
+			},
+			"guid": "f60a7b46-427f-ac41-825e-655ff1d447a8",
+			"hide_in_inspector": false,
+			"name": "Main Camera",
+			"parent": "null",
+			"position": {
+				"x": -1.4199999570846558,
+				"y": 4.690000057220459,
+				"z": 5.730000019073486
+			},
+			"rotation": {
+				"w": 0.022783296182751656,
+				"x": 0.012890169396996498,
+				"y": 0.4922548234462738,
+				"z": 0.8700574040412903
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 3.0999999046325684
+			}
+		},
+		{
+			"children": [
+				{
+					"children": [],
+					"components": {
+						"Light": {
+							"color": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"direction": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": -1.0
+							},
+							"enabled": true,
+							"guid": "05ddfda7-ae6f-9d4f-acc9-707b56c76c11",
+							"intensity": 19.0,
+							"params": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"range": 5.0,
+							"type": "Point"
+						}
+					},
+					"guid": "61ecb688-41bc-9c43-a6cc-599725a3ca89",
+					"hide_in_inspector": false,
+					"name": "Light",
+					"parent": "d9e73830-5e78-ca49-b182-19f6103b4593",
+					"position": {
+						"x": 11.770000457763672,
+						"y": 0.20999999344348907,
+						"z": 3.0
+					},
+					"rotation": {
+						"w": 1.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					}
+				}
+			],
+			"components": null,
+			"guid": "d9e73830-5e78-ca49-b182-19f6103b4593",
+			"hide_in_inspector": false,
+			"name": "Lights",
+			"parent": "null",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Light": {
+					"color": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"direction": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": -1.0
+					},
+					"enabled": true,
+					"guid": "05ddfda7-ae6f-9d4f-acc9-707b56c76c11",
+					"intensity": 19.0,
+					"params": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"range": 5.0,
+					"type": "Point"
+				}
+			},
+			"guid": "61ecb688-41bc-9c43-a6cc-599725a3ca89",
+			"hide_in_inspector": false,
+			"name": "Light",
+			"parent": "d9e73830-5e78-ca49-b182-19f6103b4593",
+			"position": {
+				"x": 11.770000457763672,
+				"y": 0.20999999344348907,
+				"z": 3.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"ShadowCamera": {
+					"bias": 9.999999747378752e-06,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": true,
+					"flags": 0,
+					"guid": "67206017-8aad-6642-b6d1-6cb663ec20b0",
+					"intensity": 1.0,
+					"mask": "null",
+					"normal_bias": 9.999999747378752e-05,
+					"projection": [
+						{
+							"w": 0.0,
+							"x": 0.13333334028720856,
+							"y": 0.0,
+							"z": 0.0
+						},
+						{
+							"w": 0.0,
+							"x": 0.0,
+							"y": -0.13333334028720856,
+							"z": 0.0
+						},
+						{
+							"w": 0.0,
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.867301949067041e-05
+						},
+						{
+							"w": 1.0,
+							"x": -3.0,
+							"y": 3.0,
+							"z": -1.000019907951355
+						}
+					],
+					"range": 100.0,
+					"resolution": {
+						"x": 512,
+						"y": 512
+					}
+				}
+			},
+			"guid": "7e37359b-00d5-304a-92f2-c802f0bb7c05",
+			"hide_in_inspector": false,
+			"name": "Shadow Light",
+			"parent": "null",
+			"position": {
+				"x": 3.0,
+				"y": 3.0,
+				"z": 5.0
+			},
+			"rotation": {
+				"w": -0.3592430353164673,
+				"x": -0.1318751722574234,
+				"y": -0.3183748126029968,
+				"z": -0.8672893643379211
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "87f0d5fb-56d1-eb40-b41f-3cbf75ad798f",
+							"position": {
+								"x": 0.019999999552965164,
+								"y": 0.5,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.33000001311302185,
+								"y": 0.5799999833106995,
+								"z": 0.2199999988079071
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "50d4b6e2-3163-8a45-bfb2-16f083893a72",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Dynamic"
+				},
+				"Gameplay::Physics::TriggerVolume": {
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "fb5309f9-0508-6646-b735-f47038393a16",
+							"position": {
+								"x": 0.019999999552965164,
+								"y": 0.5,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.33000001311302185,
+								"y": 0.5799999833106995,
+								"z": 0.2199999988079071
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "97af02fd-d3ec-f64b-a15d-9717ffe389b8",
+					"mask": -1
+				},
+				"InventoryUI": {
+					"enabled": true,
+					"guid": "edc4f0a5-b054-434b-8b71-a72581c42878"
+				},
+				"JumpBehaviour": {
+					"enabled": true,
+					"guid": "62961b06-c924-1a4f-a8b2-c78756fc628d",
+					"impulse": 6.0
+				},
+				"MorphAnimator": {
+					"enabled": true,
+					"guid": "44ee3455-d05d-d343-b55c-7ee3f751a284"
+				},
+				"MorphMeshRenderer": {
+					"enabled": true,
+					"guid": "498dc0a7-0fda-be4b-a188-425f34c0d104"
+				},
+				"PlayerMovementBehavior": {
+					"enabled": true,
+					"guid": "5951c52a-ce08-dc49-8559-188f6c0b793d",
+					"impulse": 0.0,
+					"moving": false,
+					"spill_state": false
+				},
+				"RenderComponent": {
+					"enabled": true,
+					"guid": "2af29ac1-87a9-f74f-9d97-ce83d49bf515",
+					"material": "71b9c494-8082-cd41-8709-c757907ed4ec",
+					"mesh": "0bdbf820-c21d-6d4d-b14f-925c1c8fc9d1"
+				}
+			},
+			"guid": "912c2425-42a7-0c4c-88ba-5f734f3ac154",
+			"hide_in_inspector": false,
+			"name": "Trashy",
+			"parent": "null",
+			"position": {
+				"x": 6.317999839782715,
+				"y": -0.7879999876022339,
+				"z": 0.10599999874830246
+			},
+			"rotation": {
+				"w": 0.7071067690849304,
+				"x": 0.7071067690849304,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.4000000059604645,
+				"y": 0.4000000059604645,
+				"z": 0.4000000059604645
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "ae9f0b51-82c4-8442-ae9d-f2058e2bf310",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 50.0,
+								"y": -0.11999999731779099,
+								"z": 50.0
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "87fb0080-ea18-294c-98b6-4d711cf717f7",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Kinematic"
+				},
+				"Gameplay::Physics::TriggerVolume": {
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "a2042500-536e-694c-9608-4597b52093df",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 50.0,
+								"y": -0.11999999731779099,
+								"z": 50.0
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "ff401b7d-52e9-4e4a-ae26-36772a9fa785",
+					"mask": -1
+				},
+				"GroundBehaviour": {
+					"enabled": true,
+					"guid": "cce9526e-6e47-8746-9e27-bb2cb6776991"
+				}
+			},
+			"guid": "90e976d2-bfe2-1948-ac9d-8462297f036a",
+			"hide_in_inspector": false,
+			"name": "Plane",
+			"parent": "null",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": -0.07999999821186066
+			},
+			"rotation": {
+				"w": 0.7071067690849304,
+				"x": 0.7071067690849304,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"CollectTrashBehaviour": {
+					"enabled": true,
+					"guid": "ce215018-38c8-e445-ba2b-88082ee377a1"
+				},
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "f1283259-1624-0a47-9005-9d7d43d9007e",
+							"position": {
+								"x": 0.0,
+								"y": 0.05000000074505806,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.14000000059604645,
+								"y": 0.09000000357627869,
+								"z": 0.20999999344348907
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "7b770fda-1988-ae4e-a8fd-aac08ef99530",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Kinematic"
+				},
+				"Gameplay::Physics::TriggerVolume": {
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "df031f23-dff5-c348-acda-069e644c349f",
+							"position": {
+								"x": 0.0,
+								"y": 0.05000000074505806,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.4000000059604645,
+								"y": 0.15000000596046448,
+								"z": 0.4000000059604645
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "bddddddb-8854-2545-8418-fb5524bba35d",
+					"mask": -1
+				},
+				"RenderComponent": {
+					"enabled": true,
+					"guid": "3596ef99-60d1-4242-938d-3090f926b006",
+					"material": "59a395ab-afbd-664d-b7c7-ca3417ce034f",
+					"mesh": "c22a94f1-d1fa-2340-a6ff-9197f9800598"
+				}
+			},
+			"guid": "a5485a18-cd12-2c45-8693-6acda3d42c54",
+			"hide_in_inspector": false,
+			"name": "Trash1",
+			"parent": "null",
+			"position": {
+				"x": 8.800000190734863,
+				"y": -8.529999732971191,
+				"z": 0.05999999865889549
+			},
+			"rotation": {
+				"w": 0.6061087846755981,
+				"x": 0.6061087846755981,
+				"y": -0.3641869127750397,
+				"z": -0.3641869127750397
+			},
+			"scale": {
+				"x": 0.8199999928474426,
+				"y": 0.7300000190734863,
+				"z": 0.7799999713897705
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"CollectTrashBehaviour": {
+					"enabled": true,
+					"guid": "85145e1d-95b0-584d-a336-d1a94fa5a82b"
+				},
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "f26beb02-f25c-5f4e-9e89-6d327d3f9aff",
+							"position": {
+								"x": 0.0,
+								"y": 0.1599999964237213,
+								"z": -0.07999999821186066
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.4399999976158142,
+								"y": 0.30000001192092896,
+								"z": 0.3799999952316284
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "479a8b46-3664-a94d-8030-6812d9bbc1a3",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Kinematic"
+				},
+				"Gameplay::Physics::TriggerVolume": {
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "824b524a-c42e-ac4c-a008-fb97978382ed",
+							"position": {
+								"x": 0.0,
+								"y": 0.25,
+								"z": -0.05000000074505806
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": -3.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.6600000262260437,
+								"y": 0.20999999344348907,
+								"z": 0.5799999833106995
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "4e7bc975-ca72-324c-a8b5-3b63fb1c2c2b",
+					"mask": -1
+				},
+				"RenderComponent": {
+					"enabled": true,
+					"guid": "bc392d4c-4321-3745-8669-38cc582b6315",
+					"material": "a4d14a19-9907-4644-a453-6dbc39a367c1",
+					"mesh": "67c6251c-0828-6c49-aca4-427968b361a8"
+				}
+			},
+			"guid": "78a0a2e4-eb92-a541-a0fc-0fddd03f9f76",
+			"hide_in_inspector": false,
+			"name": "Trash2",
+			"parent": "null",
+			"position": {
+				"x": 4.139999866485596,
+				"y": -8.529999732971191,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 0.4911976456642151,
+				"x": 0.4911976456642151,
+				"y": -0.508650004863739,
+				"z": -0.508650004863739
+			},
+			"scale": {
+				"x": 0.8999999761581421,
+				"y": 0.5899999737739563,
+				"z": 0.7300000190734863
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GroundBehaviour": {
+					"enabled": true,
+					"guid": "b9ee1d18-2e73-a544-8405-390116daa231"
+				},
+				"RenderComponent": {
+					"enabled": true,
+					"guid": "8223d337-bee7-2b48-82bb-973afeda0adf",
+					"material": "68392de3-f9d3-3540-9407-d22f9229f3f4",
+					"mesh": "26a16cf8-d82d-5c49-91a3-8d41d94a3c97"
+				}
+			},
+			"guid": "c546bd33-325d-ad4d-b4c0-933ee789bdae",
+			"hide_in_inspector": false,
+			"name": "Layout",
+			"parent": "null",
+			"position": {
+				"x": 6.329999923706055,
+				"y": -6.590000152587891,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 0.4999999701976776,
+				"x": 0.4999999701976776,
+				"y": 0.4999999701976776,
+				"z": 0.4999999701976776
+			},
+			"scale": {
+				"x": 0.4000000059604645,
+				"y": 0.4000000059604645,
+				"z": 0.4000000059604645
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 2.200000047683716,
+								"y": 2.0,
+								"z": 2.0
+							},
+							"guid": "d00e705a-da27-c34d-b904-34e014a38101",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 3.0399999618530273,
+								"y": 0.27000001072883606,
+								"z": 1.1699999570846558
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "fe3ee948-9189-7847-8ae1-7b1e7bd36347",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "71fd5ed5-25b3-4742-a5cc-e26bdbdee7c3",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Front",
+			"parent": "null",
+			"position": {
+				"x": 7.0,
+				"y": -13.75,
+				"z": 0.8399999737739563
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 3.0399999618530273,
+				"y": 0.27000001072883606,
+				"z": 1.1699999570846558
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 2.299999952316284,
+								"y": 2.0,
+								"z": 2.0
+							},
+							"guid": "176740b2-28de-9546-a9e2-0036ab432ed3",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 2.4600000381469727,
+								"y": 0.27000001072883606,
+								"z": 1.1699999570846558
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "0996e8c7-27d4-4e47-b835-d1dede0b6b09",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "b7a14c66-7a32-1a45-8dc1-c4a03480a856",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Back",
+			"parent": "null",
+			"position": {
+				"x": 6.409999847412109,
+				"y": 2.380000114440918,
+				"z": 0.8399999737739563
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0399999618530273,
+				"y": 0.27000001072883606,
+				"z": 1.1699999570846558
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "7a780dac-e248-1241-904c-503b2e7eabe4",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.15000000596046448,
+								"y": 3.0199999809265137,
+								"z": 2.369999885559082
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "da70d08d-cbe8-d840-b15e-512fc27acd8d",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "7fa0ef9e-e279-fc47-b6b1-15a6ac4357c8",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Right Bottom",
+			"parent": "null",
+			"position": {
+				"x": 0.6399999856948853,
+				"y": -0.7900000214576721,
+				"z": 1.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.30000001192092896,
+				"y": 1.5399999618530273,
+				"z": 2.369999885559082
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "665ab82f-62c7-5546-b29e-65c1550913b8",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.15000000596046448,
+								"y": 3.0199999809265137,
+								"z": 2.369999885559082
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "89c89c7f-bc5b-8347-9c34-014678048826",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "8c6d8742-fb5f-9644-bde0-aa26fe6d25c9",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Left Bottom",
+			"parent": "null",
+			"position": {
+				"x": 11.949999809265137,
+				"y": -0.7900000214576721,
+				"z": 1.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.30000001192092896,
+				"y": 1.5399999618530273,
+				"z": 2.369999885559082
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "a31c0f8a-0b3d-8740-bd2d-f1731465a553",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 2.619999885559082,
+								"y": 1.559999942779541,
+								"z": 2.0199999809265137
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "c5d1d695-dddf-2a42-805d-119b3496f696",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "b4145fb4-ae7e-0749-af66-35a7954f16c1",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Center Left",
+			"parent": "null",
+			"position": {
+				"x": 10.449999809265137,
+				"y": -5.260000228881836,
+				"z": 1.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.30000001192092896,
+				"y": 1.5399999618530273,
+				"z": 2.369999885559082
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "cc3774e2-41a1-444e-bf7a-0db505f59ef6",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 2.6700000762939453,
+								"y": 1.590000033378601,
+								"z": 2.0199999809265137
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "f430823d-5696-e246-8c5d-824c58263ae5",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "6c16c4d8-8390-454e-aa16-c3e3c6418a29",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Center Right",
+			"parent": "null",
+			"position": {
+				"x": 2.059999942779541,
+				"y": -5.329999923706055,
+				"z": 1.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.30000001192092896,
+				"y": 1.5399999618530273,
+				"z": 2.369999885559082
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "07e58c8f-5fbc-614b-8776-2fcfcdf43ac6",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 5.5,
+								"y": 4.0,
+								"z": 2.0199999809265137
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "23ce648f-9378-e841-89c8-0dc8733acece",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "3a6eb366-4d12-524f-8abf-585efd1e48c9",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Top Right",
+			"parent": "null",
+			"position": {
+				"x": -3.690000057220459,
+				"y": -15.279999732971191,
+				"z": 1.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.30000001192092896,
+				"y": 1.5399999618530273,
+				"z": 2.369999885559082
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "2be10ae3-44b8-4e4c-a66d-13e66d68c399",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.3100000023841858,
+								"y": 3.5,
+								"z": 2.0199999809265137
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "1820d26b-9b9a-c44a-add5-085878e5a431",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "84afbb1a-14cd-a946-9934-1ea691055c02",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Top Left",
+			"parent": "null",
+			"position": {
+				"x": 11.100000381469727,
+				"y": -11.119999885559082,
+				"z": 1.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.30000001192092896,
+				"y": 1.5399999618530273,
+				"z": 2.369999885559082
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "345e5bcb-acd3-a74f-a2e1-93eadf9bfa12",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 7.199999809265137,
+								"y": 1.5,
+								"z": 2.0199999809265137
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "349722b6-b4a6-6648-a6be-f504c71bae42",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "0a84f82f-52a0-c646-b7ab-8144a7efa46b",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Top Right 2",
+			"parent": "null",
+			"position": {
+				"x": -5.389999866485596,
+				"y": -7.0,
+				"z": 1.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.30000001192092896,
+				"y": 1.5399999618530273,
+				"z": 2.369999885559082
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "d72be13c-5413-9d43-9670-1fa43fc6c258",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.3100000023841858,
+								"y": 1.5,
+								"z": 2.0199999809265137
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "30dcb88f-a48b-a843-a1a7-bb64a6d15acb",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "1fbc038d-b401-9042-ae0c-c1b82f69529d",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Top Right Barrier",
+			"parent": "null",
+			"position": {
+				"x": 2.130000114440918,
+				"y": -9.880000114440918,
+				"z": 1.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.30000001192092896,
+				"y": 1.5399999618530273,
+				"z": 2.369999885559082
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "f519cb12-4adb-9441-b83f-804431b55eb3",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.3100000023841858,
+								"y": 6.0,
+								"z": 2.0199999809265137
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "899d4fee-b309-5544-9fb6-5a168f060bb4",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "e527a8c3-f9ed-e244-afcf-b13b5cf11f9d",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Hall Right",
+			"parent": "null",
+			"position": {
+				"x": -12.989999771118164,
+				"y": -13.0,
+				"z": 1.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.30000001192092896,
+				"y": 1.5399999618530273,
+				"z": 2.369999885559082
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"guid": "56f6b20e-874a-7b4b-b99c-8ddff217f800",
+							"position": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 7.199999809265137,
+								"y": 1.5,
+								"z": 2.0199999809265137
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "6077920e-9efd-574e-8f7b-359e492896df",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Static"
+				}
+			},
+			"guid": "52860b07-6612-024a-b8f7-c9e3b2f1c6ef",
+			"hide_in_inspector": false,
+			"name": "Layout Wall Hall Top",
+			"parent": "null",
+			"position": {
+				"x": -5.389999866485596,
+				"y": -19.489999771118164,
+				"z": 1.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 0.30000001192092896,
+				"y": 1.5399999618530273,
+				"z": 2.369999885559082
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 2.0,
+								"y": 2.2300000190734863,
+								"z": 4.25
+							},
+							"guid": "5f2031e2-3df8-d047-a2d0-3061ac56d076",
+							"position": {
+								"x": 0.0,
+								"y": 0.4000000059604645,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.25,
+								"y": 0.2199999988079071,
+								"z": 0.20000000298023224
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "c118bc7b-e082-5948-812a-421fbcda2ec3",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Kinematic"
+				},
+				"Gameplay::Physics::TriggerVolume": {
+					"colliders": [
+						{
+							"extents": {
+								"x": 2.0,
+								"y": 2.2300000190734863,
+								"z": 4.25
+							},
+							"guid": "49d977aa-1080-9f44-9352-1857e68a7bde",
+							"position": {
+								"x": 0.0,
+								"y": 0.4000000059604645,
+								"z": 0.0
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.25,
+								"y": 0.2199999988079071,
+								"z": 0.20000000298023224
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "860b8ec4-ca77-c84e-8acf-01fcabc15a1c",
+					"mask": -1
+				},
+				"MorphAnimator": {
+					"enabled": true,
+					"guid": "aaf62297-79d9-d44a-ab10-cdee1a8baf11"
+				},
+				"MorphMeshRenderer": {
+					"enabled": true,
+					"guid": "f52f3c10-7893-be46-b4fb-3dda5567cd8f"
+				},
+				"RenderComponent": {
+					"enabled": true,
+					"guid": "93b8c7b0-7db6-134f-bd6f-30126de16e51",
+					"material": "6d891808-fdd7-2c42-ad26-a0db5d0bd42a",
+					"mesh": "23652802-4b77-1744-acc4-293ed25644fb"
+				},
+				"SubmittingTrashBehaviour": {
+					"enabled": true,
+					"guid": "c8054fcc-d713-9b41-9cab-08ed638842ea"
+				}
+			},
+			"guid": "7345a673-6671-ea4c-9864-5d2d4ee30844",
+			"hide_in_inspector": false,
+			"name": "Bin",
+			"parent": "null",
+			"position": {
+				"x": 6.409999847412109,
+				"y": -11.510000228881836,
+				"z": 0.10599999874830246
+			},
+			"rotation": {
+				"w": 0.4999999701976776,
+				"x": 0.4999999701976776,
+				"y": 0.4999999701976776,
+				"z": 0.4999999701976776
+			},
+			"scale": {
+				"x": 0.4000000059604645,
+				"y": 0.4000000059604645,
+				"z": 0.4000000059604645
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"Gameplay::Physics::RigidBody": {
+					"angular_damping": 0.004999999888241291,
+					"colliders": [
+						{
+							"extents": {
+								"x": 2.0,
+								"y": 2.2300000190734863,
+								"z": 4.25
+							},
+							"guid": "3dcd233e-24c7-1840-b016-d7ac8c077c7c",
+							"position": {
+								"x": 0.0,
+								"y": 0.3700000047683716,
+								"z": 0.10000000149011612
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.20000000298023224,
+								"y": 0.1899999976158142,
+								"z": -0.07999999821186066
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "67a5134a-c0a7-104b-a387-268d85c21315",
+					"linear_damping": 0.0,
+					"mask": -1,
+					"mass": 1.0,
+					"type": "Kinematic"
+				},
+				"Gameplay::Physics::TriggerVolume": {
+					"colliders": [
+						{
+							"extents": {
+								"x": 2.0,
+								"y": 2.2300000190734863,
+								"z": 4.25
+							},
+							"guid": "8bf61676-6f66-694b-a0fd-768360dadac3",
+							"position": {
+								"x": 0.0,
+								"y": 0.3700000047683716,
+								"z": 0.10000000149011612
+							},
+							"rotation": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"scale": {
+								"x": 0.28999999165534973,
+								"y": 0.1899999976158142,
+								"z": -0.11999999731779099
+							},
+							"type": "Box"
+						}
+					],
+					"enabled": true,
+					"group": 1,
+					"guid": "53276d77-d64e-044f-ae69-3a4117baeba8",
+					"mask": -1
+				},
+				"RenderComponent": {
+					"enabled": true,
+					"guid": "c87afe9a-98a4-4d42-8966-eed67d35a6a0",
+					"material": "e26e86d5-09e1-4d47-a148-e61b43265ef2",
+					"mesh": "2368f6e7-9801-994b-818f-d2a7e3aaf826"
+				},
+				"SubmittingTrashBehaviour": {
+					"enabled": true,
+					"guid": "b0d15529-e824-eb4e-ac52-1ff9eb9d46ea"
+				}
+			},
+			"guid": "e64a72ae-f8bc-1640-b54f-60b13567f1df",
+			"hide_in_inspector": false,
+			"name": "Bin Recycle",
+			"parent": "null",
+			"position": {
+				"x": 8.569999694824219,
+				"y": -11.510000228881836,
+				"z": 0.10599999874830246
+			},
+			"rotation": {
+				"w": -3.0908619663705394e-08,
+				"x": -3.0908619663705394e-08,
+				"y": 0.7071067690849304,
+				"z": 0.7071067690849304
+			},
+			"scale": {
+				"x": 0.4000000059604645,
+				"y": 0.4000000059604645,
+				"z": 0.4000000059604645
+			}
+		},
+		{
+			"children": [
+				{
+					"children": [],
+					"components": {
+						"GuiText": {
+							"color": {
+								"w": 1.0,
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"enabled": false,
+							"font": "e19bf1b5-a1cb-6849-a87a-f29523120d79",
+							"guid": "47e95f85-6efe-7647-8b30-0d34ccec5cae",
+							"scale": 1.0,
+							"text": [
+								80,
+								114,
+								101,
+								115,
+								115,
+								32,
+								69,
+								32,
+								116,
+								111,
+								32,
+								80,
+								105,
+								99,
+								107,
+								117,
+								112,
+								32,
+								84,
+								114,
+								97,
+								115,
+								104,
+								33
+							]
+						},
+						"RectTransform": {
+							"enabled": true,
+							"guid": "d150a30b-d0b3-e847-bc29-63c77c5f133f",
+							"half_scale": {
+								"x": 0.5,
+								"y": 0.5
+							},
+							"position": {
+								"x": 0.0,
+								"y": 0.0
+							},
+							"rotation": 0.0
+						}
+					},
+					"guid": "4dcb2d42-1468-3447-a14a-77db1c022eef",
+					"hide_in_inspector": false,
+					"name": "Pickup Feedback",
+					"parent": "2dd65f63-cb15-5444-8d86-f86abba6b93e",
+					"position": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"rotation": {
+						"w": 1.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				{
+					"children": [],
+					"components": {
+						"GuiText": {
+							"color": {
+								"w": 1.0,
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"enabled": false,
+							"font": "e19bf1b5-a1cb-6849-a87a-f29523120d79",
+							"guid": "0ae2dfd6-3ce9-044e-a10b-d81270032090",
+							"scale": 1.0,
+							"text": [
+								80,
+								114,
+								101,
+								115,
+								115,
+								32,
+								69,
+								32,
+								116,
+								111,
+								32,
+								68,
+								117,
+								109,
+								112,
+								32,
+								116,
+								104,
+								101,
+								32,
+								84,
+								114,
+								97,
+								115,
+								104,
+								33
+							]
+						},
+						"RectTransform": {
+							"enabled": true,
+							"guid": "4680fc22-d6fe-4749-96e2-4a0cab35a5e7",
+							"half_scale": {
+								"x": 0.5,
+								"y": 0.5
+							},
+							"position": {
+								"x": 0.0,
+								"y": 0.0
+							},
+							"rotation": 0.0
+						}
+					},
+					"guid": "655a1d3b-e50b-df40-9662-f022716e840a",
+					"hide_in_inspector": false,
+					"name": "Submit Feedback",
+					"parent": "2dd65f63-cb15-5444-8d86-f86abba6b93e",
+					"position": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"rotation": {
+						"w": 1.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				{
+					"children": [],
+					"components": {
+						"GuiText": {
+							"color": {
+								"w": 1.0,
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"enabled": false,
+							"font": "e19bf1b5-a1cb-6849-a87a-f29523120d79",
+							"guid": "2bca64e3-e07a-8e41-960b-afc0befe5105",
+							"scale": 1.0,
+							"text": [
+								82,
+								101,
+								116,
+								117,
+								114,
+								110,
+								32,
+								116,
+								111,
+								32,
+								116,
+								104,
+								101,
+								32,
+								68,
+								117,
+								109,
+								112,
+								115,
+								116,
+								101,
+								114,
+								33
+							]
+						},
+						"RectTransform": {
+							"enabled": true,
+							"guid": "33c54b54-0559-ee44-955f-39343e437dd5",
+							"half_scale": {
+								"x": 0.25,
+								"y": 39.75
+							},
+							"position": {
+								"x": -0.25,
+								"y": -119.75
+							},
+							"rotation": 0.0
+						}
+					},
+					"guid": "176a95b2-9dad-6f43-b3f3-72d0796716b5",
+					"hide_in_inspector": false,
+					"name": "Return Feedback",
+					"parent": "2dd65f63-cb15-5444-8d86-f86abba6b93e",
+					"position": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"rotation": {
+						"w": 1.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					}
+				}
+			],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 0.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"enabled": true,
+					"guid": "f2782c45-07d4-304a-95d7-d999bc6b26f7",
+					"texture": "null"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "bd2b19f2-5b75-1c45-851a-6bd62e096686",
+					"half_scale": {
+						"x": 70.0,
+						"y": 70.0
+					},
+					"position": {
+						"x": 690.0,
+						"y": 750.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "2dd65f63-cb15-5444-8d86-f86abba6b93e",
+			"hide_in_inspector": false,
+			"name": "Feedback UI",
+			"parent": "null",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiText": {
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"font": "e19bf1b5-a1cb-6849-a87a-f29523120d79",
+					"guid": "47e95f85-6efe-7647-8b30-0d34ccec5cae",
+					"scale": 1.0,
+					"text": [
+						80,
+						114,
+						101,
+						115,
+						115,
+						32,
+						69,
+						32,
+						116,
+						111,
+						32,
+						80,
+						105,
+						99,
+						107,
+						117,
+						112,
+						32,
+						84,
+						114,
+						97,
+						115,
+						104,
+						33
+					]
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "d150a30b-d0b3-e847-bc29-63c77c5f133f",
+					"half_scale": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"position": {
+						"x": 0.0,
+						"y": 0.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "4dcb2d42-1468-3447-a14a-77db1c022eef",
+			"hide_in_inspector": false,
+			"name": "Pickup Feedback",
+			"parent": "2dd65f63-cb15-5444-8d86-f86abba6b93e",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiText": {
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"font": "e19bf1b5-a1cb-6849-a87a-f29523120d79",
+					"guid": "0ae2dfd6-3ce9-044e-a10b-d81270032090",
+					"scale": 1.0,
+					"text": [
+						80,
+						114,
+						101,
+						115,
+						115,
+						32,
+						69,
+						32,
+						116,
+						111,
+						32,
+						68,
+						117,
+						109,
+						112,
+						32,
+						116,
+						104,
+						101,
+						32,
+						84,
+						114,
+						97,
+						115,
+						104,
+						33
+					]
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "4680fc22-d6fe-4749-96e2-4a0cab35a5e7",
+					"half_scale": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"position": {
+						"x": 0.0,
+						"y": 0.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "655a1d3b-e50b-df40-9662-f022716e840a",
+			"hide_in_inspector": false,
+			"name": "Submit Feedback",
+			"parent": "2dd65f63-cb15-5444-8d86-f86abba6b93e",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiText": {
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"font": "e19bf1b5-a1cb-6849-a87a-f29523120d79",
+					"guid": "2bca64e3-e07a-8e41-960b-afc0befe5105",
+					"scale": 1.0,
+					"text": [
+						82,
+						101,
+						116,
+						117,
+						114,
+						110,
+						32,
+						116,
+						111,
+						32,
+						116,
+						104,
+						101,
+						32,
+						68,
+						117,
+						109,
+						112,
+						115,
+						116,
+						101,
+						114,
+						33
+					]
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "33c54b54-0559-ee44-955f-39343e437dd5",
+					"half_scale": {
+						"x": 0.25,
+						"y": 39.75
+					},
+					"position": {
+						"x": -0.25,
+						"y": -119.75
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "176a95b2-9dad-6f43-b3f3-72d0796716b5",
+			"hide_in_inspector": false,
+			"name": "Return Feedback",
+			"parent": "2dd65f63-cb15-5444-8d86-f86abba6b93e",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [
+				{
+					"children": [],
+					"components": {
+						"GuiPanel": {
+							"border": -1,
+							"color": {
+								"w": 1.0,
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"enabled": false,
+							"guid": "0fef325e-5523-4c44-a4b2-a35c02efe382",
+							"texture": "24180b02-46ba-d64b-b6dd-e4843734eb4c"
+						},
+						"RectTransform": {
+							"enabled": true,
+							"guid": "a06f9003-348d-014e-896b-125910909152",
+							"half_scale": {
+								"x": 180.25,
+								"y": 101.5
+							},
+							"position": {
+								"x": 179.75,
+								"y": 101.0
+							},
+							"rotation": 0.0
+						}
+					},
+					"guid": "87f5b1b8-e23c-e444-b29f-c1390c27164e",
+					"hide_in_inspector": false,
+					"name": "Walk Tutorial UI",
+					"parent": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+					"position": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"rotation": {
+						"w": 1.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				{
+					"children": [],
+					"components": {
+						"GuiPanel": {
+							"border": -1,
+							"color": {
+								"w": 1.0,
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"enabled": false,
+							"guid": "d9d68f9d-9748-7e40-837b-448a02be30f7",
+							"texture": "305ebc04-8382-1140-9233-4aca0315a1d2"
+						},
+						"RectTransform": {
+							"enabled": true,
+							"guid": "d5ed40ea-e20c-6349-98b2-5975733fddf3",
+							"half_scale": {
+								"x": 180.25,
+								"y": 101.5
+							},
+							"position": {
+								"x": 179.75,
+								"y": 101.0
+							},
+							"rotation": 0.0
+						}
+					},
+					"guid": "c9044f56-9c75-2d4c-ba7f-6513ae8a952c",
+					"hide_in_inspector": false,
+					"name": "Jump Tutorial UI",
+					"parent": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+					"position": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"rotation": {
+						"w": 1.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				{
+					"children": [],
+					"components": {
+						"GuiPanel": {
+							"border": -1,
+							"color": {
+								"w": 1.0,
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"enabled": false,
+							"guid": "04c0fed6-b584-f34e-a06a-f798ca959425",
+							"texture": "7bed8ddf-6688-3f4d-a8c9-70d7e57870ae"
+						},
+						"RectTransform": {
+							"enabled": true,
+							"guid": "ad499f5d-f440-c147-b70e-29b9426feca4",
+							"half_scale": {
+								"x": 180.25,
+								"y": 101.5
+							},
+							"position": {
+								"x": 179.75,
+								"y": 101.0
+							},
+							"rotation": 0.0
+						}
+					},
+					"guid": "498a83cc-8674-c54b-874b-c1b2ba68c6c7",
+					"hide_in_inspector": false,
+					"name": "Pickup Trash Tutorial UI",
+					"parent": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+					"position": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"rotation": {
+						"w": 1.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				{
+					"children": [],
+					"components": {
+						"GuiPanel": {
+							"border": -1,
+							"color": {
+								"w": 1.0,
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"enabled": false,
+							"guid": "426406cc-7c1d-b447-a630-1529d3c0ec63",
+							"texture": "6163a84e-16cf-2144-984c-75d365594fca"
+						},
+						"RectTransform": {
+							"enabled": true,
+							"guid": "3af83551-ddee-f041-86ac-645fd16c26bf",
+							"half_scale": {
+								"x": 180.25,
+								"y": 101.5
+							},
+							"position": {
+								"x": 179.75,
+								"y": 101.0
+							},
+							"rotation": 0.0
+						}
+					},
+					"guid": "45649f9b-196d-5142-a9aa-28a375f35861",
+					"hide_in_inspector": false,
+					"name": "Dump Tutorial UI",
+					"parent": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+					"position": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"rotation": {
+						"w": 1.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				{
+					"children": [],
+					"components": {
+						"GuiPanel": {
+							"border": -1,
+							"color": {
+								"w": 1.0,
+								"x": 1.0,
+								"y": 1.0,
+								"z": 1.0
+							},
+							"enabled": false,
+							"guid": "af63f53f-74d8-e847-a56d-1597c9401fa3",
+							"texture": "ad0e23b5-a186-8544-bfbe-b7824b7fde0f"
+						},
+						"RectTransform": {
+							"enabled": true,
+							"guid": "6f5e8eb4-a8a0-6b4a-bf45-d24d54de5630",
+							"half_scale": {
+								"x": 180.25,
+								"y": 101.5
+							},
+							"position": {
+								"x": 179.75,
+								"y": 101.0
+							},
+							"rotation": 0.0
+						}
+					},
+					"guid": "50fc64f2-5803-4644-af9b-c151aeedf5e1",
+					"hide_in_inspector": false,
+					"name": "Spill Tutorial UI",
+					"parent": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+					"position": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"rotation": {
+						"w": 1.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					}
+				}
+			],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 0.0,
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"enabled": true,
+					"guid": "c6737f0a-d9cf-f24e-91b7-8e8b32d6e555",
+					"texture": "null"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "b733b7d2-f686-5b45-8d70-9b6e1bccb64e",
+					"half_scale": {
+						"x": 640.25,
+						"y": 360.25
+					},
+					"position": {
+						"x": 690.0,
+						"y": 750.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+			"hide_in_inspector": false,
+			"name": "Tutorial Canvas",
+			"parent": "null",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"guid": "58024ba2-3d8e-6f45-8c91-7badf5411c0e",
+					"texture": "e46428da-b423-a94b-8332-91b8ba37dba9"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "49996f09-fa76-f24a-becf-d2eab822a80b",
+					"half_scale": {
+						"x": 180.0,
+						"y": 101.25
+					},
+					"position": {
+						"x": 1115.0,
+						"y": 100.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "5c731068-f3e8-824f-be30-4ccb33d43476",
+			"hide_in_inspector": false,
+			"name": "Dialogue 1",
+			"parent": "null",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"guid": "fe2ef3cd-ff01-c947-a394-c58207245b36",
+					"texture": "04391136-a9fc-8642-a3eb-18139b944f8c"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "f8922ef7-50d0-fa49-a07f-f7bec7ea21db",
+					"half_scale": {
+						"x": 180.0,
+						"y": 101.25
+					},
+					"position": {
+						"x": 1115.0,
+						"y": 100.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "1534a993-f857-cc4d-af29-8f93e33262c0",
+			"hide_in_inspector": false,
+			"name": "Dialogue 2",
+			"parent": "null",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"guid": "d3cd113d-d209-6849-a564-4ce826ac7926",
+					"texture": "0edcd492-0dd2-854f-a57e-815a39cdb091"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "27239bba-ed79-8c42-a142-c0c990cbe111",
+					"half_scale": {
+						"x": 180.0,
+						"y": 101.25
+					},
+					"position": {
+						"x": 1115.0,
+						"y": 100.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "3b0a06b4-d7db-1d48-abad-e0cbbd50dac8",
+			"hide_in_inspector": false,
+			"name": "Dialogue 3",
+			"parent": "null",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"guid": "43bddebb-1bb9-f04e-afc1-9521664ec5f1",
+					"texture": "6c21abd3-c716-3e4f-8928-519a8f39f725"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "269975d1-60c8-aa42-ace3-fc43465d9f34",
+					"half_scale": {
+						"x": 180.0,
+						"y": 101.25
+					},
+					"position": {
+						"x": 1115.0,
+						"y": 100.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "693adb9f-8046-6a47-96f6-548e1600412d",
+			"hide_in_inspector": false,
+			"name": "Dialogue 4",
+			"parent": "null",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"guid": "471df4d6-ce74-f54c-bbbd-e90d642d028c",
+					"texture": "b434941e-ab71-3740-ab30-ecd7f624c1e5"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "cd37da09-bad6-c74a-b5bc-eb32116afdfd",
+					"half_scale": {
+						"x": 180.0,
+						"y": 101.25
+					},
+					"position": {
+						"x": 1115.0,
+						"y": 100.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "05103a06-4bd8-9244-865f-5bd331e80ebd",
+			"hide_in_inspector": false,
+			"name": "Dialogue 5",
+			"parent": "null",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"guid": "0fef325e-5523-4c44-a4b2-a35c02efe382",
+					"texture": "24180b02-46ba-d64b-b6dd-e4843734eb4c"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "a06f9003-348d-014e-896b-125910909152",
+					"half_scale": {
+						"x": 180.25,
+						"y": 101.5
+					},
+					"position": {
+						"x": 179.75,
+						"y": 101.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "87f5b1b8-e23c-e444-b29f-c1390c27164e",
+			"hide_in_inspector": false,
+			"name": "Walk Tutorial UI",
+			"parent": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"guid": "d9d68f9d-9748-7e40-837b-448a02be30f7",
+					"texture": "305ebc04-8382-1140-9233-4aca0315a1d2"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "d5ed40ea-e20c-6349-98b2-5975733fddf3",
+					"half_scale": {
+						"x": 180.25,
+						"y": 101.5
+					},
+					"position": {
+						"x": 179.75,
+						"y": 101.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "c9044f56-9c75-2d4c-ba7f-6513ae8a952c",
+			"hide_in_inspector": false,
+			"name": "Jump Tutorial UI",
+			"parent": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"guid": "04c0fed6-b584-f34e-a06a-f798ca959425",
+					"texture": "7bed8ddf-6688-3f4d-a8c9-70d7e57870ae"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "ad499f5d-f440-c147-b70e-29b9426feca4",
+					"half_scale": {
+						"x": 180.25,
+						"y": 101.5
+					},
+					"position": {
+						"x": 179.75,
+						"y": 101.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "498a83cc-8674-c54b-874b-c1b2ba68c6c7",
+			"hide_in_inspector": false,
+			"name": "Pickup Trash Tutorial UI",
+			"parent": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"guid": "426406cc-7c1d-b447-a630-1529d3c0ec63",
+					"texture": "6163a84e-16cf-2144-984c-75d365594fca"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "3af83551-ddee-f041-86ac-645fd16c26bf",
+					"half_scale": {
+						"x": 180.25,
+						"y": 101.5
+					},
+					"position": {
+						"x": 179.75,
+						"y": 101.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "45649f9b-196d-5142-a9aa-28a375f35861",
+			"hide_in_inspector": false,
+			"name": "Dump Tutorial UI",
+			"parent": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": false,
+					"guid": "af63f53f-74d8-e847-a56d-1597c9401fa3",
+					"texture": "ad0e23b5-a186-8544-bfbe-b7824b7fde0f"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "6f5e8eb4-a8a0-6b4a-bf45-d24d54de5630",
+					"half_scale": {
+						"x": 180.25,
+						"y": 101.5
+					},
+					"position": {
+						"x": 179.75,
+						"y": 101.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "50fc64f2-5803-4644-af9b-c151aeedf5e1",
+			"hide_in_inspector": false,
+			"name": "Spill Tutorial UI",
+			"parent": "581153e3-cbb3-1648-a8b2-3eb28d1fb919",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		},
+		{
+			"children": [],
+			"components": {
+				"GuiPanel": {
+					"border": -1,
+					"color": {
+						"w": 1.0,
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"enabled": true,
+					"guid": "a2a5e372-0a8e-0d4f-95c0-4263ec92fe9f",
+					"texture": "null"
+				},
+				"RectTransform": {
+					"enabled": true,
+					"guid": "ce69c3d6-3276-1c4b-8cf3-f06a8e2a08e3",
+					"half_scale": {
+						"x": 50.0,
+						"y": 80.0
+					},
+					"position": {
+						"x": 1180.0,
+						"y": 640.0
+					},
+					"rotation": 0.0
+				}
+			},
+			"guid": "7ab311f9-2580-3543-a3cf-b46b2c4d6bdc",
+			"hide_in_inspector": false,
+			"name": "Inventory UI",
+			"parent": "null",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"rotation": {
+				"w": 1.0,
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			}
+		}
+	],
+	"skybox": {
+		"mesh": "null",
+		"orientation": {
+			"w": 1.0,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"shader": "null",
+		"texture": "null"
+	}
+}
